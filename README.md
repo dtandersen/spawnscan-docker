@@ -1,6 +1,6 @@
 # What is spawnScan?
 
-spawnScan is a simple and fast spawn point finder for Pokemon GO.
+[spawnScan](https://github.com/TBTerra/spawnScan) is a simple and fast spawn point finder for Pokemon GO.
 
 # How to use this image
 
