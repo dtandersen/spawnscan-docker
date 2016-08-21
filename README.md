@@ -1,8 +1,12 @@
-# Usage
+# What is spawnScan?
 
-Create a folder /path/to/work. Output is saved into work directory. 
+spawnScan is a simple and fast spawn point finder for Pokemon GO.
 
-Create config.json in work directory:
+# How to use this image
+
+Create a work directory, e.g. `/path/to/work`. Output is saved into work directory. 
+
+Create `config.json` in work directory:
 
     {
 	"auth_service": "ptc",
@@ -26,7 +30,7 @@ To run other scripts add name of script, e.g.:
 
     sudo docker run --rm -it -v /path/to/work:/opt/spawnScan/work dtandersen/spawnscan check.py
 
-## Buidling From source
+# Building from Dockerfile
 
     git clone https://github.com/dtandersen/spawnscan-docker.git
     sudo docker build -t spawn .
